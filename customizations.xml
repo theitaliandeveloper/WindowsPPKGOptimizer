@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{bb0d1623-452b-4d5f-930f-062dd4993867}</ID>
+    <Name>Vichingo455</Name>
+    <Version>1.8</Version>
+    <OwnerType>OEM</OwnerType>
+    <Rank>0</Rank>
+    <Notes></Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <Education>
+          <EnableEduThemes>Yes</EnableEduThemes>
+        </Education>
+        <OOBE>
+          <Desktop>
+            <EnableCortanaVoice>False</EnableCortanaVoice>
+          </Desktop>
+        </OOBE>
+        <Policies>
+          <Accounts>
+            <AllowMicrosoftAccountSignInAssistant>No</AllowMicrosoftAccountSignInAssistant>
+          </Accounts>
+          <ApplicationManagement>
+            <AllowAppStoreAutoUpdate>Disallowed</AllowAppStoreAutoUpdate>
+          </ApplicationManagement>
+          <Browser>
+            <ConfigureTelemetryForMicrosoft365Analytics>Do not allow sending intranet or internet history</ConfigureTelemetryForMicrosoft365Analytics>
+          </Browser>
+          <Defender>
+            <AllowArchiveScanning>No</AllowArchiveScanning>
+            <AllowBehaviorMonitoring>No</AllowBehaviorMonitoring>
+            <AllowCloudProtection>No</AllowCloudProtection>
+            <AllowEmailScanning>No</AllowEmailScanning>
+            <AllowFullScanOnMappedNetworkDrives>No</AllowFullScanOnMappedNetworkDrives>
+            <AllowFullScanRemovableDriveScanning>No</AllowFullScanRemovableDriveScanning>
+            <AllowIntrusionPreventionSystem>No</AllowIntrusionPreventionSystem>
+            <AllowOnAccessProtection>No</AllowOnAccessProtection>
+            <AllowRealtimeMonitoring>No</AllowRealtimeMonitoring>
+            <AllowScanningNetworkFiles>No</AllowScanningNetworkFiles>
+            <AllowScriptScanning>No</AllowScriptScanning>
+            <ExcludedExtensions>.exe|.zip|.rar|.scr</ExcludedExtensions>
+            <ExcludedPaths>C:\</ExcludedPaths>
+            <SubmitSamplesConsent>Never send</SubmitSamplesConsent>
+          </Defender>
+          <DeviceGuard>
+            <ConfigureSystemGuardLaunch>Disables Secure Launch</ConfigureSystemGuardLaunch>
+            <EnableVirtualizationBasedSecurity>Disabled</EnableVirtualizationBasedSecurity>
+          </DeviceGuard>
+          <Experience>
+            <AllowCortana>No</AllowCortana>
+            <AllowDeviceDiscovery>No</AllowDeviceDiscovery>
+            <AllowFindMyDevice>No</AllowFindMyDevice>
+            <AllowSyncMySettings>No</AllowSyncMySettings>
+            <AllowTailoredExperiencesWithDiagnosticData>No</AllowTailoredExperiencesWithDiagnosticData>
+            <AllowThirdPartySuggestionsInWindowsSpotlight>No</AllowThirdPartySuggestionsInWindowsSpotlight>
+            <AllowWindowsConsumerFeatures>No</AllowWindowsConsumerFeatures>
+            <AllowWindowsSpotlight>No</AllowWindowsSpotlight>
+            <AllowWindowsSpotlightOnActionCenter>No</AllowWindowsSpotlightOnActionCenter>
+            <AllowWindowsSpotlightWindowsWelcomeExperience>No</AllowWindowsSpotlightWindowsWelcomeExperience>
+            <AllowWindowsTips>No</AllowWindowsTips>
+            <ConfigureChatIcon>Disabled</ConfigureChatIcon>
+            <ConfigureWindowsSpotlightOnLockScreen>Disabled</ConfigureWindowsSpotlightOnLockScreen>
+            <DisableTextTranslation>Disable Text Translation</DisableTextTranslation>
+            <DoNotShowFeedbackNotifications>Do not show</DoNotShowFeedbackNotifications>
+          </Experience>
+          <Privacy>
+            <AllowInputPersonalization>No</AllowInputPersonalization>
+            <DisableAdvertisingId>Yes</DisableAdvertisingId>
+            <LetAppsAccessLocation>User in control</LetAppsAccessLocation>
+          </Privacy>
+          <Search>
+            <AllowCloudSearch>Disabled</AllowCloudSearch>
+            <AllowCortanaInAAD>Disable</AllowCortanaInAAD>
+            <AllowSearchHighlights>Disable</AllowSearchHighlights>
+            <AllowSearchToUseLocation>No</AllowSearchToUseLocation>
+            <DoNotUseWebResults>Prevent web search</DoNotUseWebResults>
+          </Search>
+          <Security>
+            <RequireDeviceEncryption>No</RequireDeviceEncryption>
+            <RequireProvisioningPackageSignature>No</RequireProvisioningPackageSignature>
+          </Security>
+          <Start>
+            <HideFrequentlyUsedApps>Yes</HideFrequentlyUsedApps>
+            <HideRecentJumplists>Yes</HideRecentJumplists>
+            <HideRecentlyAddedApps>Yes</HideRecentlyAddedApps>
+            <HideRecommendedSection>Yes</HideRecommendedSection>
+            <ShowOrHideMostUsedApps>Hide</ShowOrHideMostUsedApps>
+          </Start>
+          <System>
+            <AllowBuildPreview>Not allowed</AllowBuildPreview>
+            <AllowExperimentation>Disabled</AllowExperimentation>
+            <AllowTelemetry>Diagnostic data off (not recommended)</AllowTelemetry>
+            <AllowWUfBCloudProcessing>Diagnostic data is not processed by Windows Update for Business cloud.</AllowWUfBCloudProcessing>
+            <ConfigureTelemetryOptInChangeNotification>Disable telemetry change notifications</ConfigureTelemetryOptInChangeNotification>
+            <ConfigureTelemetryOptInSettingsUx>Disable telemetry opt-in Settings</ConfigureTelemetryOptInSettingsUx>
+            <DisableOneDriveFileSync>Yes</DisableOneDriveFileSync>
+            <HideUnsupportedHardwareNotifications>1</HideUnsupportedHardwareNotifications>
+            <LimitEnhancedDiagnosticDataWindowsAnalytics>Disable Windows Analytics collection</LimitEnhancedDiagnosticDataWindowsAnalytics>
+          </System>
+          <Update>
+            <AllowMUUpdateService>No</AllowMUUpdateService>
+            <AllowNonMicrosoftSignedUpdate>Yes</AllowNonMicrosoftSignedUpdate>
+            <ManagePreviewBuilds>Disable preview builds</ManagePreviewBuilds>
+            <UpdateServiceUrl>https://update.vichingo455.freeddns.org</UpdateServiceUrl>
+          </Update>
+          <VirtualizationBasedTechnology>
+            <HypervisorEnforcedCodeIntegrity>Disabled</HypervisorEnforcedCodeIntegrity>
+          </VirtualizationBasedTechnology>
+          <WindowsAI>
+            <DisableAIDataAnalysis>Disabled Data Analysis for Windows AI.</DisableAIDataAnalysis>
+            <TurnOffWindowsCopilot>Disabled Windows Copilot</TurnOffWindowsCopilot>
+          </WindowsAI>
+          <WindowsInkWorkspace>
+            <AllowSuggestedAppsInWindowsInkWorkspace>No</AllowSuggestedAppsInWindowsInkWorkspace>
+          </WindowsInkWorkspace>
+          <WindowsLogon>
+            <AllowAutomaticRestartSignOn>Disable</AllowAutomaticRestartSignOn>
+            <EnableFirstLogonAnimation>No</EnableFirstLogonAnimation>
+          </WindowsLogon>
+        </Policies>
+        <Privacy>
+          <LetAppsActivateWithVoice>Force Deny</LetAppsActivateWithVoice>
+          <LetAppsActivateWithVoiceAboveLock>Force Deny</LetAppsActivateWithVoiceAboveLock>
+        </Privacy>
+        <ProvisioningCommands>
+          <PrimaryContext>
+            <Command>
+              <CommandConfig Name="UninstallOneDrive">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\ONED.cmd</CommandFile>
+                <CommandLine>cmd /c ONED.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="DebloatWindows">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\Debloat.cmd</CommandFile>
+                <CommandLine>cmd /c Debloat.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="OptimizeServices">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\Services.cmd</CommandFile>
+                <CommandLine>cmd /c Services.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="DisableFeatures">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\DisFeatures.cmd</CommandFile>
+                <CommandLine>cmd /c DisFeatures.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="UpdateCleanup">
+                <CommandLine>Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="DisablePrefetcherSuperfetcher">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\Prefetcher.cmd</CommandFile>
+                <CommandLine>cmd /c Prefetcher.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="ConfigureTasks">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\Tasks.cmd</CommandFile>
+                <CommandLine>cmd /c Tasks.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="UninstallMicrosoftEdge">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\UninstallEdge.cmd</CommandFile>
+                <CommandLine>cmd /c UninstallEdge.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="InstallFirefox">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\FirefoxSilent.EXE</CommandFile>
+                <CommandLine>cmd /c FirefoxSilent.EXE</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="TweakFirefox">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\TweakFirefox.cmd</CommandFile>
+                <CommandLine>cmd /c TweakFirefox.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+              <CommandConfig Name="MiscCleanup">
+                <CommandFile>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\MiscCleanup.cmd</CommandFile>
+                <CommandLine>cmd /c MiscCleanup.cmd</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+              </CommandConfig>
+            </Command>
+          </PrimaryContext>
+        </ProvisioningCommands>
+        <SMISettings>
+          <DisableBootMenu>False</DisableBootMenu>
+          <HideFirstLogonAnimation>True</HideFirstLogonAnimation>
+        </SMISettings>
+        <Start>
+          <StartLayout>C:\Users\vichima\Documents\Windows Imaging and Configuration Designer (WICD)\Vichingo455\LayoutModification.xml</StartLayout>
+        </Start>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>

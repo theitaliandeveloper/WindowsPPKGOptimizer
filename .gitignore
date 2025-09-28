@@ -1,0 +1,6 @@
+*.cat
+*.ppkg
+Output\*.cat
+Output\*.ppkg
+*.log
+FirefoxSilent.EXE
